@@ -5,13 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>How to leave Vim?</title>
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/white.css">
-
-	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 
 	<link rel="stylesheet" href="dist/custom.css">
@@ -28,11 +26,25 @@
 					<span class="pa-5">+</span>
 					<img src="assets/00-rider-logo.png" alt="Jetbrains Rider logo" height="150">
 				</p>
-				<h4>...and improve the capabilities of other IDE's?</h3>
+				<h4>...and improve the capabilities<br />of other IDE's?</h3>
 			</section>
 
 			<!-- How to leave Vim? -->
-			<section></section>
+			<section>
+				<h2>HOW TO LEAVE VIM?</h2>
+				<div class="container">
+					<div class="col-6">
+						<img src="assets/01-how-to-not-leave-vim.png" alt="Tweet, how not to leave vim">
+					</div>
+					<div class="col-6 fragment">
+						<pre><code data-trim data-line-numbers="1|2|3"><script type="text/template">
+							$ <ESC> :q
+							$ <ESC> :q!
+							$ <ESC> :wq
+						</script></code></pre>
+					</div>
+				</div>
+			</section>
 
 			<!-- Agenda -->
 			<section></section>
@@ -91,6 +103,10 @@
 							<td>00-rider-logo.png</td>
 							<td>https://commons.wikimedia.org/wiki/File:JetBrains_Rider_Icon.svg</td>
 						</tr>
+						<tr>
+							<td>01-how-to-not-leave-vim.png</td>
+							<td>https://x.com/brunns/status/941320476894334977</td>
+						</tr>
 					</tbody>
 				</table>
 			</section>
@@ -102,13 +118,8 @@
 	<script src="plugin/markdown/markdown.js"></script>
 	<script src="plugin/highlight/highlight.js"></script>
 	<script>
-		// More info about initialization & config:
-		// - https://revealjs.com/initialization/
-		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
-
-			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
 	</script>
