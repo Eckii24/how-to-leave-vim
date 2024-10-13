@@ -98,8 +98,8 @@
 					data-background-image="https://rawgit.com/darcyparker/1886716/raw/eab57dfe784f016085251771d65a75a471ca22d4/vimModeStateDiagram.svg">
 				</section>
 				<section>
-					<h2>Transition of Vim Modes</h2>
-					<h3>Simplified</h3>
+					<h3>Transition of Vim Modes</h3>
+					<h4>Simplified</h4>
 					<img src="" alt="Simplified transition of Vim modes">
 				</section>
 				<section>
@@ -133,10 +133,58 @@
 
 			<!-- Further Vim features -->
 			<section>
-				<section></section>
-				<section></section>
-				<section></section>
-				<section></section>
+				<section>
+					<div class="container">
+						<div class="col-6">
+							<h2>Further Vim Features</h2>
+						</div>
+						<div class="col-6">
+							<img src="assets/04-escape-room-vim.png"
+								alt="Tweet about an escape room with exiting vim as task.">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Recording a Macro</h3>
+					<p>
+						Record vim actions and reexecute them.
+					</p>
+					<pre><code data-trim data-line-numbers="1|3|5|6"><script type="text/template">
+						$ q<register>		# start recording
+						$
+						$ # do some regular vim stuff
+						$
+						$ q							# stop recording
+						$ @<register>		# call macro
+					</script></code></pre>
+				</section>
+				<section>
+					Macro video...
+				</section>
+				<section>
+					<h3>Command Line Mode</h3>
+
+					<p>
+						Syntax: [range][command]
+					</p>
+
+					<table class="table-font-size-large">
+						<tbody>
+							<tr>
+								<td>:g/Hello/d</td>
+								<td>Delete all lines containing "Hello"</td>
+							</tr>
+							<tr>
+								<td>:%s/hello/bye/g</td>
+								<td>Replace all occurence of "hello" with "bye"</td>
+							</tr>
+							<tr>
+								<td>:3,7norm A;</td>
+								<td>Execute "A;" at lines 3 to 7</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 			</section>
 
 			<!-- Vim in other IDE's -->
@@ -189,6 +237,10 @@
 						<tr>
 							<td>03-what-the-hell-does-that-even-mean.png</td>
 							<td>https://imgflip.com/i/96j9d3</td>
+						</tr>
+						<tr>
+							<td>04-escape-room-vim.png</td>
+							<td>https://x.com/MasteringVim/status/1650807111515873281</td>
 						</tr>
 					</tbody>
 				</table>
