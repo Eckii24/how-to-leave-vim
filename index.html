@@ -19,12 +19,36 @@
 	<div class="reveal">
 		<div class="slides">
 			<!-- Starting slide -->
-			<section>
+			<section data-auto-animate>
+				<h1>HOW TO LEAVE VIM...</h1>
+				<p class="container">
+					<img src="assets/00-vim-logo.png" alt="Vim logo" height="150">
+				</p>
+			</section>
+			<section data-auto-animate>
 				<h1>HOW TO LEAVE VIM...</h1>
 				<p class="container">
 					<img src="assets/00-vim-logo.png" alt="Vim logo" height="150">
 					<span class="pa-5">+</span>
 					<img src="assets/00-rider-logo.png" alt="Jetbrains Rider logo" height="150">
+				</p>
+				<h4>...and improve the capabilities<br />of other IDE's?</h3>
+			</section>
+			<section data-auto-animate>
+				<h1>HOW TO LEAVE VIM...</h1>
+				<p class="container">
+					<img src="assets/00-vim-logo.png" alt="Vim logo" height="150">
+					<span class="pa-5">+</span>
+					<img src="assets/00-vscode-logo.png" alt="Visual Studio Code logo" height="150">
+				</p>
+				<h4>...and improve the capabilities<br />of other IDE's?</h3>
+			</section>
+			<section data-auto-animate>
+				<h1>HOW TO LEAVE VIM...</h1>
+				<p class="container">
+					<img src="assets/00-vim-logo.png" alt="Vim logo" height="150">
+					<span class="pa-5">+</span>
+					<img src="assets/00-vs-logo.png" alt="Visual Studio logo" height="150">
 				</p>
 				<h4>...and improve the capabilities<br />of other IDE's?</h3>
 			</section>
@@ -79,19 +103,19 @@
 				<section>
 					<h3>
 						Modes in <br />
-						<span class="fragment strike">Regular Text Editors</span><br />
-						<span class="fragment">Vim</span>
+						<span class="fragment strike" data-fragment-index="2">Regular Text Editors</span><br />
+						<span class="fragment" data-fragment-index="2">Vim</span>
 					</h3>
 					<ul>
-						<li>Normal</li>
-						<li>Insert</li>
-						<li>Visual</li>
-						<li>Command-line</li>
-						<li>...</li>
+						<li class="fragment">Normal</li>
+						<li class="fragment" data-fragment-index="1">Insert</li>
+						<li class="fragment">Visual</li>
+						<li class="fragment">Command-line</li>
+						<li class="fragment">...</li>
 					</ul>
 				</section>
 				<section>
-					<h3>This is why Vim seems to be very complex...</h3>
+					<h3>This is why Vim<br/>seems to be very complex...</h3>
 				</section>
 				<section 
 					data-background-size="contain"
@@ -100,7 +124,10 @@
 				<section>
 					<h3>Transition of Vim Modes</h3>
 					<h4>Simplified</h4>
-					<img src="" alt="Simplified transition of Vim modes">
+					<img 
+						class="fragment" 
+						src="assets/02-simplified-mode-transitions.drawio.png" 
+						alt="Simplified transition of Vim modes">
 				</section>
 				<section>
 					<h3>Let's see Modes in Action!</h3>
@@ -164,21 +191,21 @@
 				<section>
 					<h3>Command Line Mode</h3>
 
-					<p>
+					<p class="fragment">
 						Syntax: [range][command]
 					</p>
 
 					<table class="table-font-size-large">
 						<tbody>
-							<tr>
+							<tr class="fragment">
 								<td>:g/Hello/d</td>
 								<td>Delete all lines containing "Hello"</td>
 							</tr>
-							<tr>
+							<tr class="fragment">
 								<td>:%s/hello/bye/g</td>
 								<td>Replace all occurence of "hello" with "bye"</td>
 							</tr>
-							<tr>
+							<tr class="fragment">
 								<td>:3,7norm A;</td>
 								<td>Execute "A;" at lines 3 to 7</td>
 							</tr>
@@ -202,20 +229,20 @@
 				<section>
 					<h3>Strengths of other IDE's</h3>
 					<ul>
-						<li>Auto-completion</li>
-						<li>Run and debug code</li>
-						<li>Code documentation</li>
-						<li>Code refactoring</li>
-						<li>Easy project navigation</li>
+						<li class="fragment">Auto-completion</li>
+						<li class="fragment">Run and debug code</li>
+						<li class="fragment">Code documentation</li>
+						<li class="fragment">Code refactoring</li>
+						<li class="fragment">Easy project navigation</li>
 					</ul>
-					<h4>All comes out-of-the-box without further configuration needed!</h4>
+					<h4 class="pa-5 fragment">All comes out-of-the-box without further configuration needed!</h4>
 				</section>
 				<section>
 					<h3>Best of two Worlds</h3>
-					<img class="pa-5" height="100" src="assets/05-ideavim-plugin-logo.svg" alt="Logo of the ideaVim plugin">
-					<img class="pa-5" height="100" src="assets/05-vscode-vim-plugin-logo.png" alt="Logo of the VSCode vim plugin">
-					<img class="pa-5" height="100" src="assets/05-vsvim-plugin-logo.png" alt="Logo of the VS vim plugin">
-					<p>Integrate vim key bindings into other IDE's</p>
+					<img class="pa-5 fragment" height="100" src="assets/05-ideavim-plugin-logo.svg" alt="Logo of the ideaVim plugin">
+					<img class="pa-5 fragment" height="100" src="assets/05-vscode-vim-plugin-logo.png" alt="Logo of the VSCode vim plugin">
+					<img class="pa-5 fragment" height="100" src="assets/05-vsvim-plugin-logo.png" alt="Logo of the VS vim plugin">
+					<p class="fragment" data-fragment-index="1">Integrate vim key bindings into other IDE's</p>
 				</section>
 				<section>
 					<h2>Let's see this in action!</h2>
@@ -226,7 +253,7 @@
 			 <section>
 				<h2>Thank you for your attention!</h2>
 				<img height="300" src="assets/06-some-trying-to-exit-vim-for-the-first-time.png" alt="Tweet about some trying to exit vim for the first time.">
-				<h4>Any questions?</h4>
+				<h4 class="fragment">Any questions?</h4>
 			 </section>
 
 			<!-- Image references -->
@@ -247,6 +274,14 @@
 						<tr>
 							<td>00-rider-logo.png</td>
 							<td>https://commons.wikimedia.org/wiki/File:JetBrains_Rider_Icon.svg</td>
+						</tr>
+						<tr>
+							<td>00-vscode-logo.png</td>
+							<td>https://de.m.wikipedia.org/wiki/Datei:Visual_Studio_Code_1.35_icon.svg</td>
+						</tr>
+						<tr>
+							<td>00-vs-logo.png</td>
+							<td>https://en.wikipedia.org/wiki/File:Visual_Studio_Icon_2022.svg</td>
 						</tr>
 						<tr>
 							<td>01-how-to-not-leave-vim.png</td>
