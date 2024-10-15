@@ -1,0 +1,20 @@
+Vim will usally start in NORMAL mode.
+If you try to type, Vim will behave in a way you will not expect.
+
+To actual type, change to INSERT mode.
+This can be done with: i
+
+To go back to NORMAL mode press ESC.
+
+The mouse is most of the time useless in vim.
+That's a good thing! You can save the time moving your hand from
+the keyboard to the mouse.
+
+If you want to select a pice of text, you have to change to VISUAL mode.
+This is done with: v
+
+Last but not least, there is the COMMAND mode.
+Here you can execute certain command on the whole text.
+
+
+02 _ language_el. py
