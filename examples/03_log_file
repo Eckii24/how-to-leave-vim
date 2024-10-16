@@ -1,0 +1,991 @@
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.151092083Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.15150191Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.153780558Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.154639114Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.155224953Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.156191516Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.156515237Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.166565892Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.166894813Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:43:57 time="2024-06-06T11:43:57.167007121Z" level=info msg="Baseline membership heartbeat timestamp: 1717674237167002120" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:44:18 time="2024-06-06T11:44:18.665689654Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 13:44:18 time="2024-06-06T11:44:18.666306194Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 14:05:01 time="2024-06-06T12:05:01.597655535Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-06 14:05:01 time="2024-06-06T12:05:01.598280275Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9868161Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9869823Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9877075Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9884848Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9925508Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:08 time="2024-06-07T06:31:08.9955139Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:09 time="2024-06-07T06:31:09.0226479Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-07 08:31:09 time="2024-06-07T06:31:09.0383791Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:09 time="2024-06-07T06:31:09.0386908Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-07 08:31:09 time="2024-06-07T06:31:09.0387481Z" level=info msg="Baseline membership heartbeat timestamp: 1717741869038744000" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0789251Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0853349Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0860199Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0940378Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0940885Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.0978302Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.1027386Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.1170939Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.1173314Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-24 08:30:25 time="2024-06-24T06:30:25.1173538Z" level=info msg="Baseline membership heartbeat timestamp: 1719210625117350300" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6557214Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6622657Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6629598Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6708343Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6709207Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.6812265Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.716206Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.7293557Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.7295486Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 07:11:10 time="2024-06-25T05:11:10.729564Z" level=info msg="Baseline membership heartbeat timestamp: 1719292270729561500" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:29:43 time="2024-06-25T07:29:43.133111628Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:29:43 time="2024-06-25T07:29:43.13723055Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:30:37 time="2024-06-25T07:30:37.128041029Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:30:37 time="2024-06-25T07:30:37.130921078Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:31:10 time="2024-06-25T07:31:10.124840863Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:31:10 time="2024-06-25T07:31:10.125350326Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:35:13 time="2024-06-25T07:35:13.603546448Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-25 09:35:13 time="2024-06-25T07:35:13.604027704Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:26 time="2024-06-26T06:22:26.953283544Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:26 time="2024-06-26T06:22:26.991334944Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:26 time="2024-06-26T06:22:26.992652544Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-26 08:22:26 time="2024-06-26T06:22:26.993561144Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:26 time="2024-06-26T06:22:26.993830144Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:27 time="2024-06-26T06:22:27.001301544Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:27 time="2024-06-26T06:22:27.019062844Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-26 08:22:27 time="2024-06-26T06:22:27.031082444Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:27 time="2024-06-26T06:22:27.031274944Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 08:22:27 time="2024-06-26T06:22:27.031310044Z" level=info msg="Baseline membership heartbeat timestamp: 1719382947031292644" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:36:58 time="2024-06-26T13:36:58.102356823Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:36:58 time="2024-06-26T13:36:58.109116153Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:37:07 time="2024-06-26T13:37:07.600851626Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:37:07 time="2024-06-26T13:37:07.601162148Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:37:38 time="2024-06-26T13:37:38.099526736Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:37:38 time="2024-06-26T13:37:38.10018128Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:40:56 time="2024-06-26T13:40:56.08869198Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-26 15:40:56 time="2024-06-26T13:40:56.089205818Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.618463599Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.722072625Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.722645026Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.723060327Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.731763337Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.732847439Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.787016405Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.807106429Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.80729183Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 08:23:11 time="2024-06-27T06:23:11.80731293Z" level=info msg="Baseline membership heartbeat timestamp: 1719469391807309730" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:35:07 time="2024-06-27T13:35:07.212378815Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:35:07 time="2024-06-27T13:35:07.217945375Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:36:00 time="2024-06-27T13:36:00.207626803Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:36:00 time="2024-06-27T13:36:00.207844621Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:37:04 time="2024-06-27T13:37:04.703477218Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:37:04 time="2024-06-27T13:37:04.704535212Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:43:57 time="2024-06-27T13:43:57.177749581Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:43:57 time="2024-06-27T13:43:57.178694256Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:44:17 time="2024-06-27T13:44:17.172820995Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:44:17 time="2024-06-27T13:44:17.173624457Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:44:44 time="2024-06-27T13:44:44.172894223Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:44:44 time="2024-06-27T13:44:44.173262152Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:21 time="2024-06-27T13:53:21.141941095Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:21 time="2024-06-27T13:53:21.142749057Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:44 time="2024-06-27T13:53:44.140726044Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:44 time="2024-06-27T13:53:44.140884256Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:53 time="2024-06-27T13:53:53.640163743Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:53:53 time="2024-06-27T13:53:53.640768189Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:54:21 time="2024-06-27T13:54:21.138140173Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:54:21 time="2024-06-27T13:54:21.138378693Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:55:22 time="2024-06-27T13:55:22.632599155Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:55:22 time="2024-06-27T13:55:22.633724839Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:56:44 time="2024-06-27T13:56:44.129106541Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 15:56:44 time="2024-06-27T13:56:44.129604379Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:00:08 time="2024-06-27T14:00:08.618792272Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:00:08 time="2024-06-27T14:00:08.619726541Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:01:09 time="2024-06-27T14:01:09.614407169Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:01:09 time="2024-06-27T14:01:09.614624484Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:44:36 time="2024-06-27T14:44:36.467037169Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:44:36 time="2024-06-27T14:44:36.46924863Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:44:59 time="2024-06-27T14:44:59.964661357Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:44:59 time="2024-06-27T14:44:59.964915475Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:55:04 time="2024-06-27T14:55:04.430387945Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:55:04 time="2024-06-27T14:55:04.431323516Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:55:37 time="2024-06-27T14:55:37.927840677Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:55:37 time="2024-06-27T14:55:37.92799579Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:59:33 time="2024-06-27T14:59:33.913217874Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 16:59:33 time="2024-06-27T14:59:33.913990032Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:00:12 time="2024-06-27T15:00:12.411945294Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:00:12 time="2024-06-27T15:00:12.412278618Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:00:59 time="2024-06-27T15:00:59.908924837Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:00:59 time="2024-06-27T15:00:59.90950628Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:01:29 time="2024-06-27T15:01:29.906590706Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:01:29 time="2024-06-27T15:01:29.906785821Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:06:21 time="2024-06-27T15:06:21.889829831Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 23" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:06:21 time="2024-06-27T15:06:21.890568784Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 23" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:06:52 time="2024-06-27T15:06:52.887795468Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-27 17:06:52 time="2024-06-27T15:06:52.888001483Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3531785Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3590827Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3599949Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3605056Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3815161Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3825201Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.3920359Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.4056309Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.4057837Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 08:21:32 time="2024-06-28T06:21:32.4058034Z" level=info msg="Baseline membership heartbeat timestamp: 1719555692405799200" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 14:53:22 time="2024-06-28T12:53:22.608172349Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 14:53:22 time="2024-06-28T12:53:22.612711232Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 14:53:30 time="2024-06-28T12:53:30.107188663Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 14:53:30 time="2024-06-28T12:53:30.107524711Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 15:43:01 time="2024-06-28T13:43:01.907589422Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 15:43:01 time="2024-06-28T13:43:01.908405587Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 15:43:47 time="2024-06-28T13:43:47.905865445Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-06-28 15:43:47 time="2024-06-28T13:43:47.906246875Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.450728914Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.457993941Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.458883787Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.459458899Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.485359947Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.494035574Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.509656188Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.539084788Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.539357679Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 07:44:14 time="2024-07-01T05:44:14.539452279Z" level=info msg="Baseline membership heartbeat timestamp: 1719812654539447474" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:39:14 time="2024-07-01T16:39:14.640609541Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:39:14 time="2024-07-01T16:39:14.647760321Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:20 time="2024-07-01T16:44:20.121492717Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:20 time="2024-07-01T16:44:20.122101568Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:32 time="2024-07-01T16:44:32.117868159Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:32 time="2024-07-01T16:44:32.118494216Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:42 time="2024-07-01T16:44:42.618298237Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:42 time="2024-07-01T16:44:42.618608866Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:55 time="2024-07-01T16:44:55.118679564Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:44:55 time="2024-07-01T16:44:55.11948704Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:49:08 time="2024-07-01T16:49:08.602882308Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 6" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:49:08 time="2024-07-01T16:49:08.605055709Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 6" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:49:14 time="2024-07-01T16:49:14.602714632Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:49:14 time="2024-07-01T16:49:14.603685822Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:50:02 time="2024-07-01T16:50:02.598902434Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 8" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:50:02 time="2024-07-01T16:50:02.599937028Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 8" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:51:54 time="2024-07-01T16:51:54.093657222Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:51:54 time="2024-07-01T16:51:54.094672612Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:54:18 time="2024-07-01T16:54:18.584893784Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 10" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:54:18 time="2024-07-01T16:54:18.588021566Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 10" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:54:24 time="2024-07-01T16:54:24.584009927Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:54:24 time="2024-07-01T16:54:24.585094913Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:07 time="2024-07-01T16:55:07.580854411Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 12" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:07 time="2024-07-01T16:55:07.581984111Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 12" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:32 time="2024-07-01T16:55:32.579694096Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:32 time="2024-07-01T16:55:32.580786793Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:56 time="2024-07-01T16:55:56.577694966Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 14" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:55:56 time="2024-07-01T16:55:56.578543231Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 14" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:56:53 time="2024-07-01T16:56:53.574839776Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:56:53 time="2024-07-01T16:56:53.576027081Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:58:18 time="2024-07-01T16:58:18.570166652Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 16" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:58:18 time="2024-07-01T16:58:18.571234149Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 16" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:16 time="2024-07-01T16:59:16.567234801Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:16 time="2024-07-01T16:59:16.568332096Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:20 time="2024-07-01T16:59:20.066331821Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 18" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:20 time="2024-07-01T16:59:20.066871667Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 18" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:30 time="2024-07-01T16:59:30.06532791Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 18:59:30 time="2024-07-01T16:59:30.06601877Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:22 time="2024-07-01T17:00:22.563939253Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 20" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:22 time="2024-07-01T17:00:22.565042548Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 20" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:25 time="2024-07-01T17:00:25.063495491Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:25 time="2024-07-01T17:00:25.064283158Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 2, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:41 time="2024-07-01T17:00:41.562318662Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 22" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-01 19:00:41 time="2024-07-01T17:00:41.562973819Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 22" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.725853391Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.745784349Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.746633321Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.746898513Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.750034112Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.75411558Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.769251693Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.783531433Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.783759425Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 07:43:26 time="2024-07-02T05:43:26.783778325Z" level=info msg="Baseline membership heartbeat timestamp: 1719899006783775025" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7189735Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7220604Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7233421Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7261684Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7271517Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7274392Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7365001Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7500474Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7505831Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 08:16:09 time="2024-07-02T06:16:09.7507264Z" level=info msg="Baseline membership heartbeat timestamp: 1719900969750720800" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 13:21:54 time="2024-07-02T11:21:54.426778299Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 13:21:54 time="2024-07-02T11:21:54.431662184Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 13:24:43 time="2024-07-02T11:24:43.91249384Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 2" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-02 13:24:43 time="2024-07-02T11:24:43.913753165Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 0, table generation: 2" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1829757Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1893865Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1898082Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1906527Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1907311Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.1980445Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.2449317Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.2553239Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.2554392Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 09:23:39 time="2024-07-03T07:23:39.2554519Z" level=info msg="Baseline membership heartbeat timestamp: 1719991419255450000" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:33:56 time="2024-07-03T14:33:56.845974576Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:33:56 time="2024-07-03T14:33:56.857703171Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:34:19 time="2024-07-03T14:34:19.834941602Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:34:19 time="2024-07-03T14:34:19.835059312Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:35:35 time="2024-07-03T14:35:35.829947167Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:35:35 time="2024-07-03T14:35:35.830879434Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:05 time="2024-07-03T14:36:05.327886307Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:05 time="2024-07-03T14:36:05.328037618Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:11 time="2024-07-03T14:36:11.328215715Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:11 time="2024-07-03T14:36:11.329148583Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:47 time="2024-07-03T14:36:47.326111427Z" level=info msg="Start disseminating tables. memberUpdateCount: 2, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:36:47 time="2024-07-03T14:36:47.327144211Z" level=info msg="Completed dissemination. memberUpdateCount: 2, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:37:31 time="2024-07-03T14:37:31.322753135Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-03 16:37:31 time="2024-07-03T14:37:31.323734506Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.002585579Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.011420631Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.012295025Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.012642663Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.012703469Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.017562893Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.032436696Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.048280904Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.048503528Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 07:18:44 time="2024-07-04T05:18:44.048526031Z" level=info msg="Baseline membership heartbeat timestamp: 1720070324048522230" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 10:38:54 time="2024-07-04T08:38:54.19121648Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 10:38:54 time="2024-07-04T08:38:54.196465996Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 10:39:26 time="2024-07-04T08:39:26.688889242Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 10:39:26 time="2024-07-04T08:39:26.689282473Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:36:52 time="2024-07-04T13:36:52.60628254Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:36:52 time="2024-07-04T13:36:52.611092003Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:37:37 time="2024-07-04T13:37:37.10293138Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:37:37 time="2024-07-04T13:37:37.103258304Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:38:29 time="2024-07-04T13:38:29.59884061Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:38:29 time="2024-07-04T13:38:29.599369048Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:39:47 time="2024-07-04T13:39:47.595102286Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:39:47 time="2024-07-04T13:39:47.595511817Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:40:15 time="2024-07-04T13:40:15.092737878Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:40:15 time="2024-07-04T13:40:15.093877164Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:42:58 time="2024-07-04T13:42:58.082894894Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:42:58 time="2024-07-04T13:42:58.08363145Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:43:11 time="2024-07-04T13:43:11.582352653Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:43:11 time="2024-07-04T13:43:11.583077611Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:43:35 time="2024-07-04T13:43:35.080340186Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:43:35 time="2024-07-04T13:43:35.080720815Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:49:39 time="2024-07-04T13:49:39.544960364Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:49:39 time="2024-07-04T13:49:39.546884674Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:50:27 time="2024-07-04T13:50:27.539489153Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:50:27 time="2024-07-04T13:50:27.540046512Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:58:57 time="2024-07-04T13:58:57.495732615Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:58:57 time="2024-07-04T13:58:57.496566093Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:59:30 time="2024-07-04T13:59:30.996010901Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:59:30 time="2024-07-04T13:59:30.996213516Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:59:41 time="2024-07-04T13:59:41.49577424Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 15:59:41 time="2024-07-04T13:59:41.496392827Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 15" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:01:08 time="2024-07-04T14:01:08.993515868Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:01:08 time="2024-07-04T14:01:08.994233421Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:01:22 time="2024-07-04T14:01:22.993355508Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:01:22 time="2024-07-04T14:01:22.993969151Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 17" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:02:23 time="2024-07-04T14:02:23.490603352Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:02:23 time="2024-07-04T14:02:23.491063281Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:02:31 time="2024-07-04T14:02:31.988723697Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:02:31 time="2024-07-04T14:02:31.989126213Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 19" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:04:10 time="2024-07-04T14:04:10.984073073Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:04:10 time="2024-07-04T14:04:10.984735217Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:05:05 time="2024-07-04T14:05:05.969868769Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:05:05 time="2024-07-04T14:05:05.970914836Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 21" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:05:28 time="2024-07-04T14:05:28.979214278Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:05:28 time="2024-07-04T14:05:28.979467495Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:27:57 time="2024-07-04T14:27:57.410271214Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 23" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:27:57 time="2024-07-04T14:27:57.416567144Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 23" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:01 time="2024-07-04T14:29:01.407125667Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:01 time="2024-07-04T14:29:01.407568897Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:10 time="2024-07-04T14:29:10.90768029Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 25" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:10 time="2024-07-04T14:29:10.908822768Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 25" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:46 time="2024-07-04T14:29:46.40430975Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:46 time="2024-07-04T14:29:46.40474588Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:54 time="2024-07-04T14:29:54.90409174Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 27" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:29:54 time="2024-07-04T14:29:54.904696177Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 27" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:31:18 time="2024-07-04T14:31:18.398912818Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:31:18 time="2024-07-04T14:31:18.399434963Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:31:38 time="2024-07-04T14:31:38.886999662Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 29" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:31:38 time="2024-07-04T14:31:38.887962948Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 29" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:32:12 time="2024-07-04T14:32:12.384005555Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:32:12 time="2024-07-04T14:32:12.384302404Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:32:41 time="2024-07-04T14:32:41.882834707Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 31" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:32:41 time="2024-07-04T14:32:41.883812141Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 31" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:33:09 time="2024-07-04T14:33:09.382510415Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:33:09 time="2024-07-04T14:33:09.382893925Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:33:25 time="2024-07-04T14:33:25.382378464Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 33" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:33:25 time="2024-07-04T14:33:25.383121095Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 33" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:35:00 time="2024-07-04T14:35:00.875138221Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:35:00 time="2024-07-04T14:35:00.875948677Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:35:08 time="2024-07-04T14:35:08.875774409Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 35" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:35:08 time="2024-07-04T14:35:08.876304246Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 35" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:37:53 time="2024-07-04T14:37:53.368335309Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 16:37:53 time="2024-07-04T14:37:53.369264171Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:12:11 time="2024-07-04T15:12:11.244279881Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 37" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:12:11 time="2024-07-04T15:12:11.247384594Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 37" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:12:49 time="2024-07-04T15:12:49.742705874Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:12:49 time="2024-07-04T15:12:49.7430719Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:15:22 time="2024-07-04T15:15:22.234589178Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 39" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:15:22 time="2024-07-04T15:15:22.235935469Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 39" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:16:02 time="2024-07-04T15:16:02.230953143Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:16:02 time="2024-07-04T15:16:02.231537482Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:18:35 time="2024-07-04T15:18:35.220145451Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 41" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:18:35 time="2024-07-04T15:18:35.221097832Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 41" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:19:07 time="2024-07-04T15:19:07.218161818Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:19:07 time="2024-07-04T15:19:07.218533359Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:19:48 time="2024-07-04T15:19:48.215974729Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 43" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:19:48 time="2024-07-04T15:19:48.216646791Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 43" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:20:14 time="2024-07-04T15:20:14.714303139Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:20:14 time="2024-07-04T15:20:14.714450653Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:24:54 time="2024-07-04T15:24:54.691147742Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 45" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:24:54 time="2024-07-04T15:24:54.695805553Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 45" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:25:31 time="2024-07-04T15:25:31.69031157Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-04 17:25:31 time="2024-07-04T15:25:31.690645399Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.7564474Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.7619586Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.7635666Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.7784373Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.778506Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.7827048Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.8007318Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.8125385Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.8128009Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-05 06:42:03 time="2024-07-05T04:42:03.8128247Z" level=info msg="Baseline membership heartbeat timestamp: 1720154523812822000" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4181934Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4421862Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4430087Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4433087Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4436067Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4502647Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4633129Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4753675Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4755888Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-09 06:46:12 time="2024-07-09T04:46:12.4756025Z" level=info msg="Baseline membership heartbeat timestamp: 1720500372475600200" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.434788334Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.441613394Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.442664009Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.461857673Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.491819097Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.493842235Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.497163674Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.548587948Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.548900216Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-10 08:12:03 time="2024-07-10T06:12:03.549060085Z" level=info msg="Baseline membership heartbeat timestamp: 1720591923549055684" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.820869342Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.82900224Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.82967064Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.836149539Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.836199739Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.839676838Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.883885029Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.895514826Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.900497425Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-11 08:02:20 time="2024-07-11T06:02:20.900615025Z" level=info msg="Baseline membership heartbeat timestamp: 1720677740900609125" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.560320764Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.567445634Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.568330969Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.575177479Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.575440934Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.576819944Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.608869121Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.619652453Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.619979154Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-12 07:21:11 time="2024-07-12T05:21:11.620105443Z" level=info msg="Baseline membership heartbeat timestamp: 1720761671620101515" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.499281843Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.52288543Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.523750029Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.524399129Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.528317926Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.533685323Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.567141505Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.578486598Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.578790998Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-15 08:17:07 time="2024-07-15T06:17:07.578812598Z" level=info msg="Baseline membership heartbeat timestamp: 1721024227578809698" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.8740401Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.8804213Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.8812952Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.8874947Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.8921575Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.9176273Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.9313073Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.9433627Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.9437424Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-16 06:58:31 time="2024-07-16T04:58:31.9438114Z" level=info msg="Baseline membership heartbeat timestamp: 1721105911943808400" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.369892001Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.378905194Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.379794993Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.389148885Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.393878181Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.39494688Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.420943158Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.436302544Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.437268244Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-17 08:16:58 time="2024-07-17T06:16:58.437294344Z" level=info msg="Baseline membership heartbeat timestamp: 1721197018437289444" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.000412849Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.033387075Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.034231871Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.037719877Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.041886541Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.044799815Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.056568837Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.083654801Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.083806636Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 06:17:52 time="2024-07-18T04:17:52.08382424Z" level=info msg="Baseline membership heartbeat timestamp: 1721276272083820939" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 10:25:14 time="2024-07-18T08:25:14.887895321Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 10:25:14 time="2024-07-18T08:25:14.89285929Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 10:25:36 time="2024-07-18T08:25:36.385722876Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-18 10:25:36 time="2024-07-18T08:25:36.386063501Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.090111474Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.097274694Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.097797096Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.105809518Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.110125731Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.11333464Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.138381411Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.149530243Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.149847844Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-19 07:44:22 time="2024-07-19T05:44:22.149987644Z" level=info msg="Baseline membership heartbeat timestamp: 1721367862149982244" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.296241917Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.30489483Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.305362931Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.310864839Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.315811346Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.317084148Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.398962372Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.412864292Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.413173993Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-22 08:31:14 time="2024-07-22T06:31:14.413198093Z" level=info msg="Baseline membership heartbeat timestamp: 1721629874413192493" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.960657069Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.9680771Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.968619446Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.969140278Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.969329599Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:22 time="2024-07-23T06:14:22.981257005Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:23 time="2024-07-23T06:14:23.034802051Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-23 08:14:23 time="2024-07-23T06:14:23.06003164Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:23 time="2024-07-23T06:14:23.063056369Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-23 08:14:23 time="2024-07-23T06:14:23.063166139Z" level=info msg="Baseline membership heartbeat timestamp: 1721715263063160736" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0667911Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0845661Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0848139Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0851593Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0889685Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0931151Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.0998836Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.1120776Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.1123688Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-24 08:13:17 time="2024-07-24T06:13:17.1123819Z" level=info msg="Baseline membership heartbeat timestamp: 1721801597112379700" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.13508975Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.141461754Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.142193354Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.142777954Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.161167166Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.166106869Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.179380077Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.192588685Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.192754485Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-25 08:17:36 time="2024-07-25T06:17:36.192774185Z" level=info msg="Baseline membership heartbeat timestamp: 1721888256192770685" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.147188309Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.182400209Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.183065609Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.203831909Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.203889109Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.235452209Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.245824909Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.258055709Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.258197309Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-26 06:42:53 time="2024-07-26T04:42:53.258212009Z" level=info msg="Baseline membership heartbeat timestamp: 1721968973258209609" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.295614243Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.302145343Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.302899043Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.303283243Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.307150743Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.307658243Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.339403143Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.350984943Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.351173143Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 08:37:01 time="2024-07-29T06:37:01.351205543Z" level=info msg="Baseline membership heartbeat timestamp: 1722235021351189143" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:00:14 time="2024-07-29T15:00:14.430841879Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:00:14 time="2024-07-29T15:00:14.441189993Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:04:32 time="2024-07-29T15:04:32.91634167Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:04:32 time="2024-07-29T15:04:32.916902314Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:15:55 time="2024-07-29T15:15:55.375216559Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:15:55 time="2024-07-29T15:15:55.376368466Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:16:21 time="2024-07-29T15:16:21.874884046Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:16:21 time="2024-07-29T15:16:21.875213976Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:16:38 time="2024-07-29T15:16:38.874498647Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:16:38 time="2024-07-29T15:16:38.875183611Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:21:13 time="2024-07-29T15:21:13.856922278Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:21:13 time="2024-07-29T15:21:13.857532033Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:23:32 time="2024-07-29T15:23:32.348332043Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:23:32 time="2024-07-29T15:23:32.34929423Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:23:55 time="2024-07-29T15:23:55.34615286Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:23:55 time="2024-07-29T15:23:55.346484287Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:24:30 time="2024-07-29T15:24:30.660553404Z" level=error msg="Stream is disconnected before member is added rpc error: code = Canceled desc = context canceled" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:34:35 time="2024-07-29T15:34:35.307627517Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:34:35 time="2024-07-29T15:34:35.308319579Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:34:58 time="2024-07-29T15:34:58.306316603Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:34:58 time="2024-07-29T15:34:58.306657933Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:48:35 time="2024-07-29T15:48:35.685312017Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:48:35 time="2024-07-29T15:48:35.68665564Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:57:29 time="2024-07-29T15:57:29.651687223Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-29 17:57:29 time="2024-07-29T15:57:29.65266081Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3690728Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3762886Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3770075Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3777809Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3781775Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3853463Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.3943984Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.4076702Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.4078043Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-07-30 07:06:26 time="2024-07-30T05:06:26.4078189Z" level=info msg="Baseline membership heartbeat timestamp: 1722315986407816500" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.663711869Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.692043269Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.693111969Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.702286869Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.702491069Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.709146669Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.710469069Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.745968169Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.746203269Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-01 09:17:36 time="2024-08-01T07:17:36.746233069Z" level=info msg="Baseline membership heartbeat timestamp: 1722496656746228869" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.34195739Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.349588817Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.350427919Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.350988321Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.351016521Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.355724538Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.398850987Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.415920146Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.416200947Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-02 08:32:53 time="2024-08-02T06:32:53.416288147Z" level=info msg="Baseline membership heartbeat timestamp: 1722580373416281847" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.292450904Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.299890404Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.300485604Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.304405204Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.308774504Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.308788204Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.339034704Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.349609404Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.349852704Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-05 09:22:17 time="2024-08-05T07:22:17.349874604Z" level=info msg="Baseline membership heartbeat timestamp: 1722842537349871004" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.0922319Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.0982008Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.0990671Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1054815Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1055039Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1081379Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1197696Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1321491Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1323737Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-06 08:29:53 time="2024-08-06T06:29:53.1323951Z" level=info msg="Baseline membership heartbeat timestamp: 1722925793132391600" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.299751348Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.307757748Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.309340848Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.319025948Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.319226248Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.329515548Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.350818448Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.362188248Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.362367848Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-07 09:14:22 time="2024-08-07T07:14:22.362413748Z" level=info msg="Baseline membership heartbeat timestamp: 1723014862362406148" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.850207995Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.856817604Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.857720105Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.862275911Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.862295411Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.866318816Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.890749249Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.904904068Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.905212769Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-08 07:08:12 time="2024-08-08T05:08:12.905303169Z" level=info msg="Baseline membership heartbeat timestamp: 1723093692905298469" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.008891142Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.030638642Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.031631342Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.032116842Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.037311742Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.038052442Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.048422942Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.058019742Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.058181542Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-09 08:10:02 time="2024-08-09T06:10:02.058196442Z" level=info msg="Baseline membership heartbeat timestamp: 1723183802058193842" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.1876433Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.197332Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.198344Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2291852Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2296491Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2338875Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2403039Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.276578Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2767851Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-12 09:09:49 time="2024-08-12T07:09:49.2768056Z" level=info msg="Baseline membership heartbeat timestamp: 1723446589276801500" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5083229Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5139886Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5148435Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5151855Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5181482Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.519857Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.526108Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5731283Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5734257Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-13 06:37:17 time="2024-08-13T04:37:17.5735143Z" level=info msg="Baseline membership heartbeat timestamp: 1723523837573509400" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.368129184Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.374854884Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.375607184Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.376187184Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.379041284Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.381008084Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.410577584Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.424151284Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.424411384Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-14 06:24:40 time="2024-08-14T04:24:40.424434384Z" level=info msg="Baseline membership heartbeat timestamp: 1723609480424431284" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.458205722Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.467453536Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.467943337Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.468442337Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.473678245Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.473852746Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.495217178Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.508586999Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.509706401Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-16 08:26:26 time="2024-08-16T06:26:26.509796201Z" level=info msg="Baseline membership heartbeat timestamp: 1723789586509790501" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.768756515Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.775653415Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.780188715Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.780758415Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.784596915Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.789330515Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.801734316Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.814786416Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.815116416Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-18 14:13:00 time="2024-08-18T12:13:00.815207316Z" level=info msg="Baseline membership heartbeat timestamp: 1723983180815202616" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.170285497Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.180438908Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.181155408Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.211558039Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.212857541Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.212922641Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.223533952Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.236986766Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.239565568Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 08:05:22 time="2024-08-19T06:05:22.240165969Z" level=info msg="Baseline membership heartbeat timestamp: 1724047522240154569" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 10:25:11 time="2024-08-19T08:25:11.532771151Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 10:25:11 time="2024-08-19T08:25:11.537087997Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:56:41 time="2024-08-19T11:56:41.989801815Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:56:42 time="2024-08-19T11:56:41.997802183Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:57:23 time="2024-08-19T11:57:23.984355202Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:57:23 time="2024-08-19T11:57:23.986526822Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:58:05 time="2024-08-19T11:58:05.981046957Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:58:05 time="2024-08-19T11:58:05.981375888Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:59:51 time="2024-08-19T11:59:51.471381731Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 13:59:51 time="2024-08-19T11:59:51.472685255Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:52:37 time="2024-08-19T13:52:37.950822737Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:52:37 time="2024-08-19T13:52:37.958383368Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:53:02 time="2024-08-19T13:53:02.444141949Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:53:02 time="2024-08-19T13:53:02.445736024Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:53:35 time="2024-08-19T13:53:35.442488318Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:53:35 time="2024-08-19T13:53:35.442807951Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:58:19 time="2024-08-19T13:58:19.417360357Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:58:19 time="2024-08-19T13:58:19.418906706Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:59:04 time="2024-08-19T13:59:04.914486659Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 15:59:04 time="2024-08-19T13:59:04.914819992Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:02:00 time="2024-08-19T14:02:00.4051808Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:02:00 time="2024-08-19T14:02:00.406366137Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 11" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:07:45 time="2024-08-19T14:07:45.869857519Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:07:45 time="2024-08-19T14:07:45.870318064Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:08:59 time="2024-08-19T14:08:59.863633699Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-19 16:08:59 time="2024-08-19T14:08:59.864605096Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 13" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.35802795Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.368999718Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.370104225Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.370361526Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.370459727Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.376340463Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.401086315Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.417152614Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.417469116Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-20 08:16:22 time="2024-08-20T06:16:22.417545616Z" level=info msg="Baseline membership heartbeat timestamp: 1724134582417541716" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.169247756Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.17920462Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.179867598Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.180132268Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.180182782Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.188047286Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.201405661Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.212099423Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.21231388Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 08:13:13 time="2024-08-21T06:13:13.212335586Z" level=info msg="Baseline membership heartbeat timestamp: 1724220793212331685" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:17:57 time="2024-08-21T11:17:57.581713635Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:17:57 time="2024-08-21T11:17:57.586678904Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 1" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:18:43 time="2024-08-21T11:18:43.575339855Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:18:43 time="2024-08-21T11:18:43.575892407Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:21:51 time="2024-08-21T11:21:51.060024503Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:21:51 time="2024-08-21T11:21:51.061195014Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 3" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:22:39 time="2024-08-21T11:22:39.055441151Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:22:39 time="2024-08-21T11:22:39.055846187Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:22:48 time="2024-08-21T11:22:48.555414618Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:22:48 time="2024-08-21T11:22:48.556096082Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 5" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:23:45 time="2024-08-21T11:23:45.550309924Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 13:23:45 time="2024-08-21T11:23:45.550663759Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 14:26:05 time="2024-08-21T12:26:05.745727967Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 14:26:05 time="2024-08-21T12:26:05.750467698Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 1, targets: 1, table generation: 7" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 15:51:27 time="2024-08-21T13:51:27.377272024Z" level=info msg="Start disseminating tables. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-21 15:51:27 time="2024-08-21T13:51:27.385469726Z" level=info msg="Completed dissemination. memberUpdateCount: 1, streams: 0, targets: 0, table generation: " instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.109895815Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.116310665Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.117278333Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.1210876Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.121108802Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.1595838Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.164914774Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.177679569Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.177908886Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-22 08:36:59 time="2024-08-22T06:36:59.177931387Z" level=info msg="Baseline membership heartbeat timestamp: 1724308619177927587" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.704511285Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.716902388Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.718129588Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.718428888Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.718481289Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.72316839Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.740056894Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.764543101Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.764816901Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 06:56:57 time="2024-08-23T04:56:57.764892801Z" level=info msg="Baseline membership heartbeat timestamp: 1724389017764888601" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9160732Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9202797Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.921238Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9289762Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9319888Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9325367Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9410815Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9533656Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9678136Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:22:57 time="2024-08-23T07:22:57.9679931Z" level=info msg="Baseline membership heartbeat timestamp: 1724397777967982100" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9114046Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9131925Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9141991Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9193629Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9207901Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9213095Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9305807Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9427126Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9428665Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:25:39 time="2024-08-23T07:25:39.9428839Z" level=info msg="Baseline membership heartbeat timestamp: 1724397939942880100" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.11313396Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.124305039Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.125106537Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.12902873Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.130047328Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.130373127Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.137712913Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.145524798Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.145804498Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-23 09:31:14 time="2024-08-23T07:31:14.145827298Z" level=info msg="Baseline membership heartbeat timestamp: 1724398274145823998" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.598241917Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.605274547Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.606070052Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.606333987Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.606349389Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.613374717Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.621504192Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.633385063Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.633487076Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-26 13:04:26 time="2024-08-26T11:04:26.633499578Z" level=info msg="Baseline membership heartbeat timestamp: 1724670266633497378" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.040216267Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.051516664Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.052092413Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.060836236Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.068892421Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.069194694Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.086185686Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.102443242Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.102742316Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-27 08:25:23 time="2024-08-27T06:25:23.102782012Z" level=info msg="Baseline membership heartbeat timestamp: 1724739923102777613" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.626798706Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.632912484Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.633780795Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.644969438Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.646288055Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.669387151Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.679493281Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.69191104Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.692226844Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-28 08:11:17 time="2024-08-28T06:11:17.692289745Z" level=info msg="Baseline membership heartbeat timestamp: 1724825477692286445" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.611339364Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.634968972Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.636075373Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.636351073Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.636887673Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.671850885Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.68706569Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.699904094Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.700218195Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 07:03:11 time="2024-08-29T05:03:11.700247895Z" level=info msg="Baseline membership heartbeat timestamp: 1724907791700243195" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.945056707Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.946457632Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.947717453Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.952668739Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.953447253Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.953749158Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.957422421Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.967312292Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.967535696Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-29 10:21:52 time="2024-08-29T08:21:52.967560397Z" level=info msg="Baseline membership heartbeat timestamp: 1724919712967555897" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.879119439Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.885653304Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.886538812Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.890262634Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.89074241Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.925428928Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.933045986Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.947602843Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.94785083Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-08-30 08:35:55 time="2024-08-30T06:35:55.947926081Z" level=info msg="Baseline membership heartbeat timestamp: 1724999755947921755" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.11444408Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.124045835Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.125215915Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.167604005Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.171997604Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.204448317Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.214936132Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.255552701Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.255897124Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-02 08:31:18 time="2024-09-02T06:31:18.25598323Z" level=info msg="Baseline membership heartbeat timestamp: 1725258678255978730" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.32384017Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.329809474Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.330562375Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.330961375Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.335095078Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.335126878Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.37884491Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.394554921Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.394717521Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-03 07:28:29 time="2024-09-03T05:28:29.394736121Z" level=info msg="Baseline membership heartbeat timestamp: 1725341309394732321" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.055248534Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.068163151Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.069062545Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.073870914Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.07446371Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.080951168Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.093858185Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.10865639Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.108809589Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-04 07:18:47 time="2024-09-04T05:18:47.108828689Z" level=info msg="Baseline membership heartbeat timestamp: 1725427127108825389" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.062225418Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.07341407Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.078436238Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.090017095Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.090104396Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.09336514Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.100563638Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.116090648Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.116489453Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-05 08:05:47 time="2024-09-05T06:05:47.116581955Z" level=info msg="Baseline membership heartbeat timestamp: 1725516347116577555" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.5633536Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.5969272Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.597563Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6043387Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6077744Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6087678Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6157761Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6253693Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6256547Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-10 09:03:42 time="2024-09-10T07:03:42.6257324Z" level=info msg="Baseline membership heartbeat timestamp: 1725951822625728100" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.02749828Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.03475773Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.035188333Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.055632575Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.056229279Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.057081085Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.067518758Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.078803836Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.079001637Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-11 08:16:40 time="2024-09-11T06:16:40.079022337Z" level=info msg="Baseline membership heartbeat timestamp: 1726035400079018937" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.911508617Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.943448757Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.94487645Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.945180548Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.951066818Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.951368717Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.969694925Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.990371221Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.990745419Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-12 09:05:51 time="2024-09-12T07:05:51.990773019Z" level=info msg="Baseline membership heartbeat timestamp: 1726124751990767419" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.59563049Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.605183753Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.606403376Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.607231459Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.610648104Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.611936534Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.634846143Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.652788851Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.653100383Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-09-13 07:51:22 time="2024-09-13T05:51:22.653186291Z" level=info msg="Baseline membership heartbeat timestamp: 1726206682653182091" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.267414604Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.280790679Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.281517121Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.291634907Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.29169791Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.296768204Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.300351111Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.312208598Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.312809432Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-01 08:32:42 time="2024-10-01T06:32:42.312839534Z" level=info msg="Baseline membership heartbeat timestamp: 1727764362312835634" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.012162258Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.018178355Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.018781255Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.028296352Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.028345252Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.032408751Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.06366294Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.076071835Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.076338435Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-02 07:21:50 time="2024-10-02T05:21:50.076356535Z" level=info msg="Baseline membership heartbeat timestamp: 1727846510076352235" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:38 time="2024-10-04T05:08:38.969264467Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:38.987555125Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:38.988326246Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:38.988493495Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:38.992158448Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:39.003798994Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:39.028371357Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:39.039170261Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:39.03941253Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-04 07:08:39 time="2024-10-04T05:08:39.039435737Z" level=info msg="Baseline membership heartbeat timestamp: 1728018519039432136" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.347754752Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.353809152Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.354600452Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.358033752Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.359372052Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.361721652Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.405995452Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.416896452Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.417013052Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-14 07:18:14 time="2024-10-14T05:18:14.417031752Z" level=info msg="Baseline membership heartbeat timestamp: 1728883094417028552" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.283017568Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.291647968Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.292245568Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.300208268Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.306670368Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.311698868Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.327915568Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.340111068Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.340279068Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-15 07:45:37 time="2024-10-15T05:45:37.340298168Z" level=info msg="Baseline membership heartbeat timestamp: 1728971137340294968" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.831845328Z" level=info msg="Starting Dapr Placement Service -- version 1.13.4 -- commit b18d9516f0eff06f8fdacd36e8bdf290909b05d9" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.838381155Z" level=info msg="Log level set to: info" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.840436216Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" instance=0aba670ac255 scope=dapr.runtime.security type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.841449444Z" level=info msg="Healthz server is listening on :8080" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.847084957Z" level=info msg="metrics server started on :9090/" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.850145745Z" level=info msg="Placement service started on port 50005" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.859377313Z" level=info msg="Raft server is starting on 127.0.0.1:8201..." instance=0aba670ac255 scope=dapr.placement.raft type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.873550508Z" level=info msg="Cluster leadership acquired" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.87388875Z" level=info msg="leader is established." instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
+2024-10-16 08:00:14 time="2024-10-16T06:00:14.873988463Z" level=info msg="Baseline membership heartbeat timestamp: 1729058414873983662" instance=0aba670ac255 scope=dapr.placement type=log ver=1.13.4
