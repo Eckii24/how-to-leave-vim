@@ -12,10 +12,10 @@ app = Flask( name )
 
 @app. route("/")
 def index():
-    return """ 99 little bugs in the code,
-               99 bugs in the code,
-               1 bug fixed... compile again,
-               100 little bugs in the code."""
+    return """99 little bugs in the code,
+              99 bugs in the code,
+              1 bug fixed... compile again,
+              100 little bugs in the code."""
 
 
 # 02_language_03.py

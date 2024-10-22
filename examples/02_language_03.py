@@ -31,7 +31,7 @@ def change_a_light_bulb():
 
 
 
-#"answer": "None. That's a hardware problem."
+#        "answer": "None. That's a hardware problem."
 
 
 # 02_language_04.py
