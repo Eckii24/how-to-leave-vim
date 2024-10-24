@@ -4,6 +4,7 @@
 # - d        --> delete
 # - c        --> change
 # - y        --> yank / copy
+# - p        --> paste
 
 from flask import Flask
 
